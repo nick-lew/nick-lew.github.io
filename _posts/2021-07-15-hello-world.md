@@ -1,14 +1,15 @@
 ---
 layout: post
-title: Hello World
-categories: [content, demo]
+title: Seeking Research Opportunities for 2027 PhD Applications
+categories: [content, phd]
 ---
 
-Hello and welcome. The only purpose of this post is to greet you when your site comes alive for the first time.  
-This post will demonstrate some of the more common content & elements found in posts.  
-Feel free to delete this post when you are ready to publish your first post.  
+I plan to apply for PhD programs in Artificial Intelligence starting in 2027. To prepare for this goal, I am seeking research opportunities such as research assistantships, research internships, and visiting student positions.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
+My research interests include large language models (LLMs), reinforcement learning (RL), AI agents, multimodal large language models (MLLMs), and medical imaging.
+
+If you are planning to recruit PhD students or are open to research collaboration, please feel free to contact me. I would be happy to discuss potential research opportunities and collaborations.
+
 
 ## Some great heading (h2)
 
