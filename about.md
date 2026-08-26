@@ -46,7 +46,7 @@ Sep 2018 – Jun 2022
 
 **Papers:**
 
-- *LLM-Guided Graph Reasoning with Hierarchical ROIs for Complex Referring Expression Localization* (To be submitted at CCF-A conference, co-first author)
+- *LLM-Guided Graph Reasoning with Hierarchical ROIs for Complex Referring Expression Localization* (To be submitted at 2027AAAI, co-first author)
 - *Hyperspectral imaging for intraoperative brain tumor identification through fusion of spectral, textural, and spectral index features* (JCR Q2, first author)
 
 **Patents:**
