@@ -6,7 +6,7 @@ categories: [content, phd]
 
 I plan to apply for PhD programs in Artificial Intelligence starting in 2027. To prepare for this goal, I am seeking research opportunities such as research assistantships, research internships, and visiting student positions.
 
-My research interests include large language models (LLMs), reinforcement learning (RL), AI agents, multimodal large language models (MLLMs), and medical imaging.
+My research interests include large language models (LLMs), reinforcement learning (RL), AI agents, multimodal large language models (MLLMs), and medical imaging etc.
 
 If you are planning to recruit PhD students or are open to research collaboration, please feel free to contact me. I would be happy to discuss potential research opportunities and collaborations.
 
