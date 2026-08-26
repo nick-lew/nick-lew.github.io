@@ -3,9 +3,6 @@ layout: default
 title: About Me
 permalink: /about/
 ---
-
-# Jianhua Liu
-
 &#x1F4E7; liujianhua1000@gmail.com
 
 ## Experience
