@@ -8,9 +8,9 @@ permalink: /about/
 ## Experience
 
 **Tsinghua University**, Research Intern  
-Apr 2026 – July 2026
+Apr 2026 – Jul 2026
 
-**VIVO**, *Image algorithm Engineer*  
+**VIVO**, *Image Algorithm Engineer*  A
 Jul 2025 – Mar 2026
 
 **University of Chinese Academy of Sciences (UCAS)**  
@@ -31,9 +31,9 @@ Sep 2018 – Jun 2022
 
 **TravelPlannerAgent — RL Adaptation of an Open-Source Multi-Tool Planning Agent**
 - Built a ReAct-based loop integrating reasoning, tool calling, and environmental feedback. Connected six categories of query tools, including flights, hotels, and restaurants, to support multi-step information gathering and itinerary generation. Evaluated factual consistency and constraint satisfaction through structured parsing and rule-based validation.
-- Designed a data-synthesis pipeline consisting of travel-element sampling, feasibility checking, and naturallanguage request generation. Controlled task difficulty based on the number and types of constraints. Used a teacher model (DeepSeek-V4-Pro-Thinking) to generate trajectories, filtered high-quality samples based on task success and format validation, and conducted SFT cold-start training for Qwen3.5-4B.
+- Designed a data-synthesis pipeline consisting of travel-element sampling, feasibility checking, and natural language request generation. Controlled task difficulty based on the number and types of constraints. Used a teacher model (DeepSeek-V4-Pro-Thinking) to generate trajectories, filtered high-quality samples based on task success and format validation, and conducted SFT cold-start training for Qwen3.5-4B.
 - Integrated GRPO through rLLM and adopted a staged reward strategy of SUM → MACRO → SUCCESS. Combined this strategy with penalties for formatting errors to improve the effectiveness and stability of long-trajectory training.
-- On 1,000 independent test samples, the agentic task success rate (pass1) improved from 2.7% for the base model and 16.8% after SFT to 51.3% after GRPO training.
+- On 1,000 independent test samples, the agentic task success rate (pass@1) improved from 2.7% for the base model and 16.8% after SFT to 51.3% after GRPO training.
 
 **Hierarchical ROI Graph Reasoning for Visual Grounding**
 - Built a VLM agent for complex visual referring expressions, formulating grounding as a multi-step workflow: expression understanding, graph-tool invocation, candidate verification, and target localization.
@@ -58,7 +58,7 @@ pipeline
 
 **Papers:**
 
-- *CER: Compositional Evidence-Guided Ranking for Referring Expression Comprehension* (To be submitted at 2027AAAI, co-first author)
+- *CER: Compositional Evidence-Guided Ranking for Referring Expression Comprehension* (Submitted to AAAI 2027, co-first author)
 - *Hyperspectral imaging for intraoperative brain tumor identification through fusion of spectral, textural, and spectral index features* (JCR Q2, first author)
 
 **Patents:**
