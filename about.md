@@ -67,8 +67,8 @@ pipeline
 
 **Software Copyrights:**
 
-- 1 first-author copyright (Caitong Network Platform)
-- 1 second-author copyright (Yunting Music Management System)
+- 1 first-author copyright
+- 1 second-author copyright
 
 ## Other
 
