@@ -36,10 +36,10 @@ Sep 2018 – Jun 2022
 - On 1,000 independent test samples, the agentic task success rate (pass1) improved from 2.7% for the base model and 16.8% after SFT to 51.3% after GRPO training.
 
 **Hierarchical ROI Graph Reasoning for Visual Grounding**
-- Built a VLM agent for complex visual referring expressions, formulating grounding as a multi-step workflow: expression understanding, graph-tool invocation, candidate verification, and target localization.
+- Built a VLM agent for complex visual referring expressions, formulating grounding as a multi-step workflow: expression understanding, graph-tool invocation, candidate verification, and target localization.
 - Constructed a hierarchical ROI graph and graph-query tools to retrieve structured visual context, including
 object attributes, spatial relations, and containment relations.
-- Implemented intermediate-result-aware candidate backtracking and constraint verification, producing interpretable reasoning traces; integrated and evaluated Groma and Qwen3-VL backbones under a unified
+- Implemented intermediate-result-aware candidate backtracking and constraint verification, producing interpretable reasoning traces; integrated and evaluated Groma and Qwen3-VL backbones under a unified
 pipeline
 
 **Unsupervised Spectral-Spatial Feature Learning via Deep Residual Conv-Deconv Networks for Medical Applications**
