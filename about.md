@@ -29,7 +29,7 @@ Sep 2018 – Jun 2022
 - Encoded candidate–condition matching outcomes as structured evidence features and used a global gradient-boosted decision tree (GBDT) ranker for candidate re-ranking.
 - Evaluated the method on FineCops, Cops-Ref, and Ref-Adv; with a 2B grounding backbone, outperformed Qwen3.6-35B-A3B by 4.34–7.27 points and achieved 60.95% accuracy on Ref-Adv.
 
-**Reinforcement Learning Training of TravelPlannerAgent for Long-Horizon Multi-Tool Planning()**
+**TravelPlannerAgent — RL Adaptation of an Open-Source Multi-Tool Planning Agent**
 - Built a ReAct-based loop integrating reasoning, tool calling, and environmental feedback. Connected six categories of query tools, including flights, hotels, and restaurants, to support multi-step information gathering and itinerary generation. Evaluated factual consistency and constraint satisfaction through structured parsing and rule-based validation.
 - Designed a data-synthesis pipeline consisting of travel-element sampling, feasibility checking, and naturallanguage request generation. Controlled task difficulty based on the number and types of constraints. Used a teacher model (DeepSeek-V4-Pro-Thinking) to generate trajectories, filtered high-quality samples based on task success and format validation, and conducted SFT cold-start training for Qwen3.5-4B.
 - Integrated GRPO through rLLM and adopted a staged reward strategy of SUM → MACRO → SUCCESS. Combined this strategy with penalties for formatting errors to improve the effectiveness and stability of long-trajectory training.
