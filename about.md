@@ -23,12 +23,24 @@ Sep 2018 – Jun 2022
 
 ## Projects
 
-**Graph Reasoning with Hierarchical ROIs for Complex Referring Expression Localization**
+**CER: Compositional Evidence-Guided Ranking for Referring Expression Comprehension**
+- Addressed the condition competition bottleneck in visual-language grounding, where multiple constraints are compressed into a single candidate-matching score.
+- Proposed a Compositional Evidence-Guided Ranking (CER) framework that builds a compact target-category shortlist and evaluates each candidate region against fine-grained linguistic conditions.
+- Encoded candidate–condition matching outcomes as structured evidence features and used a global gradient-boosted decision tree (GBDT) ranker for candidate re-ranking.
+- Evaluated the method on FineCops, Cops-Ref, and Ref-Adv; with a 2B grounding backbone, outperformed Qwen3.6-35B-A3B by 4.34–7.27 points and achieved 60.95% accuracy on Ref-Adv.
 
-- Proposed a graph reasoning framework combining LLMs with hierarchical visual graphs for the Complex Referring Expression Localization (CREL) task
-- Reframed the flat candidate matching problem in traditional ROI-aware MLLMs as a structured candidate selection process on graphs
-- Decomposed referring expressions into reasoning chains of targets, anchors, and relational constraints
-- Validated on vision-language models including Groma and Qwen3-VL; achieved consistent improvements in CREL performance and robustness
+**Reinforcement Learning Training of TravelPlannerAgent for Long-Horizon Multi-Tool Planning()**
+- Built a ReAct-based loop integrating reasoning, tool calling, and environmental feedback. Connected six categories of query tools, including flights, hotels, and restaurants, to support multi-step information gathering and itinerary generation. Evaluated factual consistency and constraint satisfaction through structured parsing and rule-based validation.
+- Designed a data-synthesis pipeline consisting of travel-element sampling, feasibility checking, and naturallanguage request generation. Controlled task difficulty based on the number and types of constraints. Used a teacher model (DeepSeek-V4-Pro-Thinking) to generate trajectories, filtered high-quality samples based on task success and format validation, and conducted SFT cold-start training for Qwen3.5-4B.
+- Integrated GRPO through rLLM and adopted a staged reward strategy of SUM → MACRO → SUCCESS. Combined this strategy with penalties for formatting errors to improve the effectiveness and stability of long-trajectory training.
+- On 1,000 independent test samples, the agentic task success rate (pass1) improved from 2.7% for the base model and 16.8% after SFT to 51.3% after GRPO training.
+
+**Hierarchical ROI Graph Reasoning for Visual Grounding**
+- Built a VLM agent for complex visual referring expressions, formulating grounding as a multi-step workflow: expression understanding, graph-tool invocation, candidate verification, and target localization.
+- Constructed a hierarchical ROI graph and graph-query tools to retrieve structured visual context, including
+object attributes, spatial relations, and containment relations.
+- Implemented intermediate-result-aware candidate backtracking and constraint verification, producing interpretable reasoning traces; integrated and evaluated Groma and Qwen3-VL backbones under a unified
+pipeline
 
 **Unsupervised Spectral-Spatial Feature Learning via Deep Residual Conv-Deconv Networks for Medical Applications**
 
@@ -46,7 +58,7 @@ Sep 2018 – Jun 2022
 
 **Papers:**
 
-- *LLM-Guided Graph Reasoning with Hierarchical ROIs for Complex Referring Expression Localization* (To be submitted at 2027AAAI, co-first author)
+- *CER: Compositional Evidence-Guided Ranking for Referring Expression Comprehension* (To be submitted at 2027AAAI, co-first author)
 - *Hyperspectral imaging for intraoperative brain tumor identification through fusion of spectral, textural, and spectral index features* (JCR Q2, first author)
 
 **Patents:**
