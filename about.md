@@ -10,14 +10,14 @@ permalink: /about/
 **Tsinghua University**, Research Intern  
 Apr 2026 – Jul 2026
 
-**VIVO**, *Image Algorithm Engineer*  A
+**VIVO**, *Image Algorithm Engineer* 
 Jul 2025 – Mar 2026
 
-**University of Chinese Academy of Sciences*(US News Rank: 54)***  
+**University of Chinese Academy of Sciences**  *(US News Rank: 54)*  
 Master in Electronic Information  
 Sep 2022 – Jun 2025
 
-**Zhengzhou University** *US News Rank: 203* 
+**Zhengzhou University** *US News Rank: 203*   
 Bachelor in Software Engineering  
 Sep 2018 – Jun 2022
 
