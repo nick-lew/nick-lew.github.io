@@ -13,7 +13,7 @@ Apr 2026 – Jul 2026
 **VIVO**, *Image Algorithm Engineer*  A
 Jul 2025 – Mar 2026
 
-**University of Chinese Academy of Sciences*(US News Rank: 54)***
+**University of Chinese Academy of Sciences*(US News Rank: 54)***  
 Master in Electronic Information  
 Sep 2022 – Jun 2025
 
